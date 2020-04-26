@@ -3,12 +3,12 @@ disp('Welcome to BMI Calculator')
 Name= input('Enter Your Name','s');
 System=menu('Enter the system to proceed','Imperial System','SI Standard System');
 if System==1
-    Weight= input('Enter Your Weight in Pounds(lbs)');
-    Height= input('Enter Your Height in Inches(inch)');
+    Weight= input('Enter Your Weight in Pounds(lbs):- ');
+    Height= input('Enter Your Height in Inches(inch):- ');
     BMI =((Weight/(Height*Height))*703);
 else
-     Weight= input('Enter Your Weight in Kilograms(Kg)');
-    Height= input('Enter Your Height in Meters(m)');
+     Weight= input('Enter Your Weight in Kilograms(Kg):- ');
+    Height= input('Enter Your Height in Meters(m):- ');
     BMI =(Weight/(Height*Height));
 end
 if BMI<18.5
